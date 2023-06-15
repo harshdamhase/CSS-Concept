@@ -9,6 +9,8 @@ marging:auto; :: left or right se margin chodta hai aur center mein ata hi
 
  text-align: center;   ::: text center mein aata hai
  
+ Flexbox: provide flexibility to cards
+ 
  
 
 
