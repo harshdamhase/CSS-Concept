@@ -4,14 +4,19 @@
 <head>
     <title>Card</title>
     <style>
+        body {
+            background-color: gray;
+        }
+
         .container {
             background-color: white;
-            display: block;
-            margin: auto;
+            height: 460px;
             width: 550px;
-            height: 280px;
-            border: 3px solid black;
-            margin-top: 50px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            border-radius: 5px;
+
         }
 
         .card {
@@ -24,37 +29,76 @@
         }
 
         .tab-container {
-            background-color: cadetblue;
+            
             width: 250px;
             height: 50px;
         }
-        .img-link{
-            width:18px;
-            margin-left: auto;
-            margin-right: auto;
-            
+
+        .img-link {
+            height: 40px;
+            padding-top: 100px;
+
+            margin-left: 200px;
+
         }
-        .heading{
-        
+
+
+        .description {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bolder;
+            margin-left: 55px;
+            margin-right: 55px;
+            padding-top: 10px;
         }
+
+        .small-description {
+            text-align: center;
+            font-size: 17px;
+        }
+
+        .tab-container {
+            height: 30px;
+            width: 160px;
+            margin: 0 auto;
+        }
+
+        .des-left {
+            background-color: #e9e9f1;
+        }
+
+        .des-right {
+            background-color: white;
+        }
+        .btn{
+  margin-top: 7px;
+  border: none;
+  background-color: rgb(31 177 65);
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+}
     </style>
 </head>
 
 <body>
+
+
     <div class="container">
-        <div class="card">
-            <img src="link.png" class="img-link" />
-            <h3 class="heading">Please remember to add a link to us
+        <img src="link.png" alt="link" class="img-link">
+        <div class="description">Please remember to add a link to us wherever you use this icon</div>
+        <p class="small-description">It should look like this:</p>
 
-                wherever you see use this icon</h3>
+        <div class="tab-container">
+            <div class="des-left tab">
+                <button>mic icon by icon8</button> </div>
 
-            <p>It should look like this</p>
-
-            <div class="tab-container">
-                mic icon by icon set
-            </div>
-            <div class="tab-left">copy HTML</div>
+            <div class="des-right tab">Html
+                 </div>
         </div>
+
+
 
     </div>
 </body>
